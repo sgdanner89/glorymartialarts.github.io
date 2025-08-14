@@ -41,7 +41,13 @@
     margin-bottom: 2rem;
     line-height: 1.6;
   }
-  
+
+  .pricing-note {
+    margin-top: 1.3rem;
+    font-size: 1rem;
+    color: var(--main-orange);
+  }
+
   /* ---------------------- */
   /* Navbar Styles */
   /* ---------------------- */
