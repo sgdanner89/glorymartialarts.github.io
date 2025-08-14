@@ -205,6 +205,42 @@
     color: var(--main-white);
     font-size: 1.04rem;
   }
+
+  /* ---------------------- */
+  /* Pricing Table Styles */
+  /* ---------------------- */
+  .pricing-table {
+    margin: 2rem 0;
+    overflow-x: auto;
+  }
+  .pricing-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(25,25,25,0.97);
+    border-radius: 1.2rem;
+    overflow: hidden;
+  }
+  .pricing-table th, .pricing-table td {
+    padding: 0.95rem 0.5rem;
+    text-align: center;
+  }
+  .pricing-table th {
+    background: var(--main-orange);
+    color: var(--main-white);
+    font-weight: bold;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+  .pricing-table tr:nth-child(even) {
+    background: #222;
+  }
+  .pricing-table tr:nth-child(odd) {
+    background: #191919;
+  }
+  .pricing-table td {
+    color: var(--main-white);
+    font-size: 1.04rem;
+  }
   
   /* ---------------------- */
   /* Media Queries */
