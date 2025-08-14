@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up – Glory Martial Arts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="signup.html">Sign Up</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="contact.html">Contact</a>
+  </nav>  
+  <div class="form-container">
+    <h2>Sign Up for a Free Class</h2>
+    <form id="signupForm" autocomplete="off">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your full name">
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com">
+      </div>
+      <div>
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" required placeholder="(555) 123-4567">
+      </div>
+      <div>
+        <label for="class">Choose a Class</label>
+        <select id="class" name="class" required>
+          <option value="">Select…</option>
+          <option value="Kickboxing">Kickboxing</option>
+          <option value="Jujutsu">Jujutsu</option>
+          <option value="Kids Martial Arts">Kids Martial Arts</option>
+          <option value="Parkinson’s Rehab">Parkinson’s Rehab</option>
+          <option value="Private Lesson">Private Lesson</option>
+        </select>
+      </div>
+      <button class="submit-btn" type="submit">Submit</button>
+    </form>
+    <div class="thank-you" id="thankYouMsg">
+      Thank you for signing up!<br>
+      We'll be in touch soon to confirm your class.
+    </div>
+  </div>
+  <script>
+    const form = document.getElementById('signupForm');
+    const thankYouMsg = document.getElementById('thankYouMsg');
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      form.style.display = 'none';
+      thankYouMsg.style.display = 'block';
+    });
+  </script>
+</body>
+</html>
