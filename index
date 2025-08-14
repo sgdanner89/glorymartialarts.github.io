@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glory Martial Arts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="signup.html">Sign Up</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="contact.html">Contact</a>
+  </nav>  
+
+  <div class="container">
+    <!-- Replaced SVG with actual image -->
+    <div class="image-row">
+      <img src="images/profile_pic.jpg" alt="Glory Martial Arts Logo">
+    </div>
+
+    <h1>Glory Martial Arts</h1>
+    <p>
+      Empower your mind, body, and spirit.<br>
+      Classes for all ages and levels—kickboxing, jujutsu, and more.<br>
+      Start your journey with us today.
+    </p>
+    <a href="signup.html" class="cta-btn" style="text-decoration:none;display:inline-block;">Get Started</a>
+  </div>
+</body>
+</html>
