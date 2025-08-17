@@ -10,60 +10,83 @@
 <body>
   <nav class="navbar">
     <a href="index.html">Home</a>
-    <a href="about.html">About</a>
+<!--    <a href="about.html">About</a>  -->
     <a href="schedule.html">Schedule</a>
-    <a href="signup.html">Sign Up</a>
+<!--    <a href="signup.html">Sign Up</a>  -->
     <a href="pricing.html">Pricing</a>
     <a href="contact.html">Contact</a>
   </nav>
+
   <div class="container">
     <h1>Class Schedule</h1>
-    <p>Find the right class for your goals—kickboxing, jujutsu, martial arts for all ages, and more.</p>
-    <div class="schedule-table">
-      <table>
-        <thead>
-          <tr>
-            <th>Day</th>
-            <th>Time</th>
-            <th>Class</th>
-            <th>Instructor</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Monday</td>
-            <td>6:00 PM</td>
-            <td>Kickboxing</td>
-            <td>Coach Sarah</td>
-          </tr>
-          <tr>
-            <td>Tuesday</td>
-            <td>5:30 PM</td>
-            <td>Jujutsu</td>
-            <td>Coach Mark</td>
-          </tr>
-          <tr>
-            <td>Wednesday</td>
-            <td>6:00 PM</td>
-            <td>Kids Martial Arts</td>
-            <td>Coach Lisa</td>
-          </tr>
-          <tr>
-            <td>Thursday</td>
-            <td>10:00 AM</td>
-            <td>Parkinson’s Rehab</td>
-            <td>Coach Jim</td>
-          </tr>
-          <tr>
-            <td>Friday</td>
-            <td>7:00 PM</td>
-            <td>Open Mat</td>
-            <td>Coach Mark</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <a href="signup.html" class="cta-btn" style="margin-top:2rem;">Sign Up for a Class</a>
+    <p>Kickboxing, Brazilian Jiu-Jitsu, Kids Jiu-Jitsu, and Open Mat — grouped by day for quick scanning.</p>
+
+    <!-- New grouped-by-day layout -->
+    <section class="schedule-grid" aria-label="Weekly class schedule">
+      <!-- Monday -->
+      <article class="day-card">
+        <header class="day-title">Monday</header>
+        <ul class="class-list">
+          <li><span class="time">9:00 AM</span><span class="class-name">Kickboxing</span></li>
+          <li><span class="time">4:30 PM</span><span class="class-name">Kids Jiu-Jitsu</span></li>
+          <li><span class="time">5:30 PM</span><span class="class-name">Kickboxing</span></li>
+        </ul>
+      </article>
+
+      <!-- Tuesday -->
+      <article class="day-card">
+        <header class="day-title">Tuesday</header>
+        <ul class="class-list">
+          <li><span class="time">9:00 AM</span><span class="class-name">BJJ — Mixed Levels</span></li>
+          <li><span class="time">4:30 PM</span><span class="class-name">BJJ — Beginners</span></li>
+          <li><span class="time">5:30 PM</span><span class="class-name">BJJ — Advanced</span></li>
+        </ul>
+      </article>
+
+      <!-- Wednesday -->
+      <article class="day-card">
+        <header class="day-title">Wednesday</header>
+        <ul class="class-list">
+          <li><span class="time">9:00 AM</span><span class="class-name">Kickboxing</span></li>
+          <li><span class="time">4:30 PM</span><span class="class-name">Kids Jiu-Jitsu</span></li>
+          <li><span class="time">5:30 PM</span><span class="class-name">Kickboxing</span></li>
+        </ul>
+      </article>
+
+      <!-- Thursday -->
+      <article class="day-card">
+        <header class="day-title">Thursday</header>
+        <ul class="class-list">
+          <li><span class="time">9:00 AM</span><span class="class-name">BJJ — Mixed Levels</span></li>
+          <li><span class="time">4:30 PM</span><span class="class-name">BJJ — Beginners</span></li>
+          <li><span class="time">5:30 PM</span><span class="class-name">BJJ — Advanced</span></li>
+        </ul>
+      </article>
+
+      <!-- Friday -->
+      <article class="day-card">
+        <header class="day-title">Friday</header>
+        <ul class="class-list">
+          <li><span class="time">9:00 AM</span><span class="class-name">Kickboxing</span></li>
+        </ul>
+      </article>
+
+      <!-- Saturday -->
+      <article class="day-card">
+        <header class="day-title">Saturday</header>
+        <ul class="class-list">
+          <li><span class="time">11:00 AM</span><span class="class-name">BJJ — No-Gi</span></li>
+          <li><span class="time">12:00 PM</span><span class="class-name">Open Mats</span></li>
+        </ul>
+      </article>
+    </section>
+
+     <a href="pricing.html" class="cta-btn" style="margin-top:2rem;">Check out our pricing</a>
+     <p style="margin-top:1rem; font-size:0.95rem; opacity:0.9;">
+      *Schedule subject to change for holidays and special events. Check our 
+      <a href="https://www.facebook.com/spencerthekingfisher" target="_blank" rel="noopener">Facebook</a> 
+      for announcements.
+    </p>
   </div>
 </body>
 </html>

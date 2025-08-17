@@ -10,14 +10,16 @@
 <body>
   <nav class="navbar">
     <a href="index.html">Home</a>
-    <a href="about.html">About</a>
     <a href="schedule.html">Schedule</a>
-    <a href="signup.html">Sign Up</a>
     <a href="pricing.html">Pricing</a>
     <a href="contact.html">Contact</a>
   </nav>
+
   <div class="form-container">
     <h2>Contact Us</h2>
+
+    <!-- Contact form temporarily disabled -->
+    <!--
     <form id="contactForm" autocomplete="off">
       <div>
         <label for="contact-name">Name</label>
@@ -37,20 +39,21 @@
       Thank you for reaching out!<br>
       We’ll get back to you as soon as possible.
     </div>
-    <div style="margin-top:2rem; font-size:1.06rem; color:#ccc;">
-      <div><strong>Email:</strong> <a href="mailto:info@glorymartialarts.com" style="color:#ff6600;">info@glorymartialarts.com</a></div>
-      <div><strong>Phone:</strong> <a href="tel:8285551234" style="color:#ff6600;">(828) 555-1234</a></div>
-      <div><strong>Address:</strong> 123 Main St, Waynesville, NC</div>
+    -->
+
+    <div style="margin-top:2rem; font-size:1.06rem; color:#ccc; text-align:left;">
+      <p><strong>Emily Fisher</strong><br>
+        <a href="tel:5635057305" style="color:#ff6600;">563-505-7305</a> (text only)<br>
+        <a href="mailto:fightingfishers@gmail.com" style="color:#ff6600;">fightingfishers@gmail.com</a>
+      </p>
+      <p><strong>Spencer Fisher</strong><br>
+        <a href="tel:8285084248" style="color:#ff6600;">828-508-4248</a>
+      </p>
+      <p><strong>Cody Thompson</strong><br>
+        <a href="tel:8284003184" style="color:#ff6600;">828-400-3184</a><br>
+        <a href="mailto:Cody@socp.info" style="color:#ff6600;">Cody@socp.info</a>
+      </p>
     </div>
   </div>
-  <script>
-    const cForm = document.getElementById('contactForm');
-    const cThankYou = document.getElementById('contactThankYou');
-    cForm.addEventListener('submit', function(e) {
-      e.preventDefault();
-      cForm.style.display = 'none';
-      cThankYou.style.display = 'block';
-    });
-  </script>
 </body>
 </html>
